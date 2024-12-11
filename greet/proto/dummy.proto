@@ -3,3 +3,11 @@ syntax = "proto3";
 package greet;
 
 option go_package = "github.com/KarasunoAs9/gRPC-Project/greet/proto";
+
+message Dummy {
+    uint32 id = 1;
+}
+
+service DummyService {
+    
+}
